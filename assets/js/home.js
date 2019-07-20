@@ -1,3 +1,4 @@
+/* Type effect on landing page */
 new Typed("#typed", {
 	strings: [
 		"Olá.",
@@ -16,5 +17,3 @@ new Typed("#typed", {
 	fadeOut: true,
 	typeSpeed: 100
 });
-
-Typed();

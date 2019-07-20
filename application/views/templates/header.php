@@ -20,7 +20,7 @@
 
 <body>
 	<nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top" id="myNav">
-		<a class="navbar-brand font-weig\t-bold" href="index.php">Diogo Marques_</span></a>
+		<a class="navbar-brand font-weight-bold" href="index.php">Diogo Costa_</span></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
 			aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>

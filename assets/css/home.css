@@ -1,14 +1,14 @@
 section {
-	background-attachment: fixed;
-	background-size: auto;
-	background-position: bottom;
-	background-repeat: no-repeat;
 	height: 100vh;
 	display: block;
 }
 
 /* Landing Page*/
 #section_landing_page {
+	background-attachment: fixed;
+	background-size: auto;
+	background-position: bottom;
+	background-repeat: no-repeat;
 	background-image: url("../images/banner.jpg");
 }
 
