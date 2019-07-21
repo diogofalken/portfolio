@@ -5,7 +5,7 @@
 
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
 
-<script src="https://unpkg.com/scrollreveal"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 <script text = "text/javascript" src = "<?php echo base_url("assets/js/{$page}.js"); ?>" ></script>
 <script text = "text/javascript" src = "<?php echo base_url("assets/js/core.js"); ?>" ></script>

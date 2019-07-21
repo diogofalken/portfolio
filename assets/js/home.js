@@ -17,3 +17,5 @@ new Typed("#typed", {
 	fadeOut: true,
 	typeSpeed: 100
 });
+
+AOS.init();

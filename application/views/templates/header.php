@@ -12,6 +12,9 @@
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
 	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
 
+<!-- Scroll effects AOS -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 <!-- Page CSS -->
 <link rel="stylesheet" href="<?php echo base_url("assets/css/{$page}.css"); ?>">
 
@@ -19,7 +22,7 @@
 </head>
 
 <body>
-	<nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top" id="myNav">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top" id="myNav" data-aos="zoom-in" data-aos-duration="1500" data-aos-offset="500">
 		<a class="navbar-brand font-weight-bold" href="index.php">Diogo Costa_</span></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
 			aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
