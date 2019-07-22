@@ -31,7 +31,7 @@
 		<div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
 			<div class="navbar-nav text-center">
 				<a href="#Home" class="nav-item nav-link text-light pr-4">Home</a>
-				<a href="#About" class="nav-item nav-link text-light pr-4">About</a>
+				<a href="#section_about" class="nav-item nav-link text-light pr-4">About</a>
 				<a href="#Portfolio" class="nav-item nav-link text-light pr-4">Portfolio</a>
 				<a href="#Contact" class="nav-item nav-link text-light pr-4">Contact</a>
 			</div>
