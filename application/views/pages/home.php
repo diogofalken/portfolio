@@ -46,8 +46,8 @@
 
                 I'm Diogo, I'm 19 years old and currently studying computer engineering at ESTGV in Viseu.
                 I'm passionate about learning new technologies while working constantly to improve my existing skillset.
-                Below you'll find details about tools that I'm familiar with, a detailed list of personal projects<span
-                  class="cursor text-success">_</span>
+                Below you'll find details about tools that I'm familiar with, and a detailed list of personal
+                projects<span class="cursor text-success">_</span>
               </span>
             </div>
           </div>
@@ -55,23 +55,65 @@
       </div>
     </div>
 
-    <div class="row">
+    <div class="row my-2 shadow p-3 bg-white rounded w-100 mx-auto" id="tools">
       <div class="col-12 text-center">
-        <div class="row my-5">
-          <div class="col my-auto"><i class="fab fa-html5 fa-5x fa-fw"></i></div>
-          <div class="col my-auto"><i class="fab fa-css3-alt fa-5x fa-fw"></i></div>
-          <div class="col my-auto"><i class="fab fa-js fa-5x fa-fw"></i></div>
-          <div class="col my-auto"><i class="fab fa-java fa-5x fa-fw"></i></div>
-          <div class="col my-auto"><i class="fas fa-robot fa-5x fa-fw"></i></div>
-          <div class="col my-auto"><i class="fab fa-android fa-5x fa-fw"></i></div>
+        <div class="row">
+          <div class="col-12">
+            <h4 id="title_icons">Tools</h4>
+            <hr class="hr_subtitle_icons bg-dark">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col my-auto icons">
+            <i class="fab fa-html5 fa-5x fa-fw"></i>
+            <p>HTML5</p>
+          </div>
+          <div class="col my-auto icons">
+            <i class="fab fa-css3-alt fa-5x fa-fw"></i>
+            <p>CSS3</p>
+          </div>
+          <div class="col my-auto icons">
+            <i class="fab fa-js fa-5x fa-fw my-auto"></i>
+            <p>JS</p>
+          </div>
+          <div class="col my-auto icons">
+            <i class="fab fa-java fa-5x fa-fw"></i>
+            <p>Java</p>
+          </div>
+          <div class="col my-auto icons">
+            <i class="fas fa-robot fa-5x fa-fw"></i>
+            <p>RobotFramework</p>
+          </div>
+          <div class="col my-auto icons">
+            <i class="fab fa-android fa-5x fa-fw"></i>
+            <p>Android</p>
+          </div>
         </div>
         <div class="row my-4">
-          <div class="col my-auto"><i class="fab fa-github fa-5x fa-fw"></i></div>
-          <div class="col my-auto"><img src="<?php echo base_url("assets/images/icons/python.png")?>" alt="c++"></div>
-          <div class="col my-auto"><img src="<?php echo base_url("assets/images/icons/php.png")?>" alt="c++"></i></div>
-          <div class="col my-auto"><img src="<?php echo base_url("assets/images/icons/c++.png")?>" alt="c++"></div>
-          <div class="col my-auto"><img src="<?php echo base_url("assets/images/icons/c.png")?>" alt="c++"></div>
-          <div class="col my-auto"><img src="<?php echo base_url("assets/images/icons/mysql.png")?>" alt="c++"></div>
+          <div class="col my-auto icons">
+            <i class="fab fa-github fa-5x fa-fw"></i>
+            <p>Github</p>
+          </div>
+          <div class="col my-auto icons">
+            <img src="<?php echo base_url("assets/images/icons/python.png")?>" alt="c++">
+            <p>Python</p>
+          </div>
+          <div class="col my-auto icons">
+            <img src="<?php echo base_url("assets/images/icons/php.png")?>" alt="php"></i>
+            <p>PHP</p>
+          </div>
+          <div class="col my-auto icons">
+            <img src="<?php echo base_url("assets/images/icons/c++.png")?>" alt="c++">
+            <p>C++</p>
+          </div>
+          <div class="col my-auto icons">
+            <img src="<?php echo base_url("assets/images/icons/c.png")?>" alt="c">
+            <p>C</p>
+          </div>
+          <div class="col my-auto icons">
+            <img src="<?php echo base_url("assets/images/icons/mysql.png")?>" alt="mysql">
+            <p>MySql</p>
+          </div>
         </div>
       </div>
     </div>

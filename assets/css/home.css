@@ -209,3 +209,36 @@ section {
 		opacity: 0;
 	}
 }
+
+/* Icons */
+#title_icons {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	opacity: 1;
+}
+
+.hr_subtitle_icons {
+	width: 25%;
+	height: 2px;
+}
+.icons {
+	cursor: pointer;
+	opacity: 1;
+	width: 100px;
+	height: 120px;
+}
+
+.icons p {
+	display: none;
+}
+
+.icons img:hover {
+	filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg)
+		brightness(95%) contrast(80%);
+}
+
+.fas:hover,
+.fab:hover {
+	color: #1a9790;
+}
