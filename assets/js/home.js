@@ -18,23 +18,6 @@ new Typed("#typed", {
 	typeSpeed: 100
 });
 
-AOS.init();
-
-const languages = [
-	"HTML5",
-	"CSS3",
-	"JavaScript",
-	"Java",
-	"RobotFramework",
-	"Android",
-	"Github",
-	"Python",
-	"PHP",
-	"C++",
-	"C",
-	"MySql"
-];
-
 const scene = new Scene(
 	{
 		"#title_icons": {
@@ -59,7 +42,7 @@ const scene = new Scene(
 				opacity: "1"
 			},
 			options: {
-				delay: i * 0.2
+				delay: i * 0.1
 			}
 		})
 	},
@@ -70,20 +53,15 @@ const scene = new Scene(
 	}
 );
 
-document.querySelectorAll(".icons").forEach((icon, index) => {
-	icon.addEventListener("mouseover", () => {
-		icon.getElementsByTagName("p")[0].style.display = "block";
-	});
-	icon.addEventListener("mouseout", () => {
-		icon.getElementsByTagName("p")[0].style.display = "none";
-	});
-});
-
 let teste = 0;
-$(window).scroll(function() {
-	// check if scroll event happened
-	if ($(document).scrollTop() >= window.innerHeight && teste === 0) {
-		teste = 1;
-		scene.play();
-	}
+$(document).ready(() => {
+	$(window).scroll(function() {
+		// check if scroll event happened
+		if ($(document).scrollTop() >= window.innerHeight && teste === 0) {
+			teste = 1;
+			scene.play();
+		}
+	});
+
+	AOS.init();
 });

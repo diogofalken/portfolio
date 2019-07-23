@@ -1,10 +1,13 @@
-section {
+#section_home,
+#section_about,
+#section_projects,
+#section_contact {
 	height: 100vh;
 	display: block;
 }
 
 /* Landing Page*/
-#section_landing_page {
+#section_home {
 	background-attachment: fixed;
 	background-size: auto;
 	background-position: bottom;
@@ -12,7 +15,7 @@ section {
 	background-image: url("../images/banner.jpg");
 }
 
-#section_landing_page .intro {
+#section_home .intro {
 	position: relative;
 	float: left;
 	top: 50%;
@@ -215,7 +218,7 @@ section {
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	opacity: 1;
+	opacity: 0;
 }
 
 .hr_subtitle_icons {
@@ -241,4 +244,48 @@ section {
 .fas:hover,
 .fab:hover {
 	color: #1a9790;
+}
+
+/* Portfolio */
+.card {
+	height: 300px;
+	cursor: pointer;
+}
+.card-img-top {
+	position: absolute;
+	height: 100%;
+	object-fit: cover;
+}
+
+.card-img-top:hover {
+	opacity: 0.1;
+	transition: 0.5s opacity;
+}
+
+input {
+	border: 0 !important;
+	border-radius: 0 !important;
+	border-bottom: 1px solid black !important;
+}
+
+.form-control:focus {
+	border-color: none;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	border-bottom: 2px solid #1a9790 !important;
+}
+
+textarea:focus {
+	border-color: none;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	border: 2px solid #1a9790 !important;
+}
+
+/* Media Queries */
+@media (min-width: 374px) and (max-width: 767px) {
+	#section_about,
+	#section_projects {
+		height: 100%;
+	}
 }
