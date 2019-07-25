@@ -4,6 +4,11 @@
 	scroll-behavior: smooth;
 }
 
+body,
+html {
+	overflow-x: hidden;
+}
+
 .loader {
 	position: fixed;
 	left: 0px;

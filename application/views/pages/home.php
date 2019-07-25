@@ -44,7 +44,7 @@
               <span class="command">
                 diogocosta$ cat README.md <br>
 
-                I'm Diogo, I'm 19 years old and currently studying computer engineering at ESTGV in Viseu.
+                I'm Diogo, I'm 19 years old and currently on my 3rd year of computer engineering at ESTGV in Viseu.
                 I'm passionate about learning new technologies while working constantly to improve my existing skillset.
                 Below you'll find details about tools that I'm familiar with, and a detailed list of personal
                 projects<span class="cursor text-success">_</span>
@@ -66,15 +66,15 @@
         <div class="row">
           <div class="col my-auto icons">
             <i class="fab fa-html5 fa-5x fa-fw"></i>
-            <p>HTML5</p>
+            <p>HTML</p>
           </div>
           <div class="col my-auto icons">
             <i class="fab fa-css3-alt fa-5x fa-fw"></i>
-            <p>CSS3</p>
+            <p>CSS</p>
           </div>
           <div class="col my-auto icons">
             <i class="fab fa-js fa-5x fa-fw"></i>
-            <p>JS</p>
+            <p>JavaScript</p>
           </div>
           <div class="col my-auto icons">
             <i class="fab fa-java fa-5x fa-fw"></i>
@@ -192,26 +192,22 @@
         <form>
           <div class="form-row">
             <div class="form-group col-md-6">
-              <label for="inputEmail">Name</label>
               <input type="text" class="form-control " id="inputName" placeholder="Name...">
             </div>
             <div class="form-group col-md-6">
-              <label for="inputEmail">Email</label>
               <input type="email" class="form-control" id="inputEmail" placeholder="Email...">
             </div>
           </div>
           <div class="form-group">
-            <label for="inputSubject">Subject</label>
             <input type="text" class="form-control" id="inputSubject" placeholder="Subject...">
           </div>
           <div class="form-group">
-            <label for="inputTextArea">Message</label>
             <textarea class="form-control" id="inputTextArea" rows="3"
               placeholder="Insert your message here..."></textarea>
           </div>
           <div class="row">
             <div class="col-12 text-center">
-              <button type="submit" class="btn btn-primary">Sign in</button>
+              <button type="submit" class="btn btn-primary">Submit</button>
             </div>
           </div>
         </form>

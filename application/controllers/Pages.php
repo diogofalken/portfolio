@@ -6,6 +6,8 @@
             }
 
             $data["page"] = $page;
+            $this->load->model("Projects_model");
+            $data["projetos"] = json_encode($this->Projects_model->getProjects());
             $this->load->view("templates/header", $data);
 		    $this->load->view("pages/{$page}");
             $this->load->view("templates/footer", $data);

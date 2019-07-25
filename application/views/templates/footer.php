@@ -12,6 +12,20 @@
 <script text="text/javascript" src="<?php echo base_url("assets/js/{$page}.js"); ?>"></script>
 <script text="text/javascript" src="<?php echo base_url("assets/js/core.js"); ?>"></script>
 
+<script>
+const data = <?php echo $projetos?>;
+const projetosCategoria = {};
+
+data.forEach(da => {
+  let tools = JSON.parse(da["tools"]);
+
+  tools.forEach(tool => {
+    projetosCategoria[tool] = projetosCategoria[tool] || [];
+    projetosCategoria[tool].push(da);
+  });
+});
+</script>
+
 </body>
 
 </html>
