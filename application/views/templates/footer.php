@@ -1,8 +1,10 @@
 <footer class="bg-dark container-fluid">
     <div class="row p-3 h-75 align-items-center justify-content-center">
         <div class="mx-auto">
-            <i class="fab fa-github fa-3x fa-fw text-light"></i>
-            <i class="fab fa-linkedin-in fa-3x fa-fw text-light"></i>
+            <a href="https://github.com/diogofalken" target="_blank"><i
+                    class="fab fa-github fa-3x fa-fw text-light"></i></a>
+            <a href="https://www.linkedin.com/in/diogocosta99/" target="_blank"><i
+                    class="fab fa-linkedin-in fa-3x fa-fw text-light"></i></a>
         </div>
     </div>
     <div class="bg-footer-down text-light h-25">
