@@ -6,6 +6,7 @@
 
 <!-- Titulo -->
 <title><?php echo ucfirst(preg_replace("/(?<!\A)[A-Z]+/", ' $0', $page)); ?></title>
+<link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url("assets/images/favicon-16x16.png"); ?>">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 

@@ -45,6 +45,7 @@ data.forEach(da => {
         projetosCategoria[tool].push(da);
     });
 });
+clickCards();
 </script>
 
 </body>

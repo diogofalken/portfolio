@@ -98,17 +98,27 @@ const writeProject = tool => {
 				projeto["imagem"]
 			}" class="card-img-top" alt="MyCards Web"><div class="card-body"><h5 class="card-title text-center">${
 				projeto["nome"]
-			}</h5><hr><p class="card-text">${
-				projeto["descricao"]
-			}</p></div><div class="card-footer text-center"><i class="fas fa-arrow-right fa-2x text-info"></i></div></div></div>`;
+			}</h5><hr><p class="card-text">${projeto["descricao"]}</p>
+			</div><div class="card-footer text-center"><i class="fas fa-arrow-right fa-2x text-info"></i></div></div></div>`;
 		});
 	} else {
 		output += `<div class="col-12 text-center text-danger"><h3>Não foram encontrados projetos realizados com a ferramenta ${tool}!</h3></div>`;
 	}
 
 	document.getElementById("projetos").innerHTML = output;
+	clickCards();
 };
 
+const clickCards = () => {
+	document.querySelectorAll(".card").forEach(col => {
+		col.addEventListener("click", () => {
+			console.log(col);
+		});
+	});
+};
+const teste1 = div => {
+	console.log(div);
+};
 const takeFilter = () => {
 	document.querySelectorAll(".icons").forEach(col => {
 		col.firstElementChild.style.filter = "";
@@ -178,12 +188,4 @@ const validation = form => {
 		textarea.parentElement.lastElementChild.innerHTML = "Correto!";
 	}
 	return returnValue;
-};
-
-const success = () => {
-	$("#success-alert")
-		.fadeTo(2000, 500)
-		.slideUp(500, function() {
-			$("#success-alert").slideUp(500);
-		});
 };

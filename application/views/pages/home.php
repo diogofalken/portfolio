@@ -1,7 +1,3 @@
-<div class="alert alert-success" id="success-alert">
-    <button type="button" class="close" data-dismiss="alert">x</button>
-    <strong>Success! </strong> Email was sent with success.
-</div>
 <main>
     <section id="section_home">
         <div class="intro w-100 text-center text-light">
@@ -72,22 +68,22 @@
                 </div>
                 <div class="row">
                     <div class="col my-auto icons" tool="HTML">
-                        <i class="fab fa-html5 fa-5x fa-fw"></i>
+                        <i class="fab fa-html5 fa-5x fa-fw mr-2"></i>
                     </div>
                     <div class="col my-auto icons" tool="CSS">
-                        <i class="fab fa-css3-alt fa-5x fa-fw"></i>
+                        <i class="fab fa-css3-alt fa-5x fa-fw mr-2"></i>
                     </div>
                     <div class="col my-auto icons" tool="JavaScript">
-                        <i class="fab fa-js fa-5x fa-fw"></i>
+                        <i class="fab fa-js fa-5x fa-fw mr-2"></i>
                     </div>
                     <div class="col my-auto icons" tool="Java">
-                        <i class="fab fa-java fa-5x fa-fw"></i>
+                        <i class="fab fa-java fa-5x fa-fw mr-2"></i>
                     </div>
                     <div class="col my-auto icons" tool="RobotFramework">
-                        <i class="fas fa-robot fa-5x fa-fw"></i>
+                        <i class="fas fa-robot fa-5x fa-fw mr-2"></i>
                     </div>
                     <div class="col my-auto icons" tool="Android">
-                        <i class="fab fa-android fa-5x fa-fw"></i>
+                        <i class="fab fa-android fa-5x fa-fw mr-2"></i>
                     </div>
                 </div>
                 <div class="row my-4">
@@ -167,7 +163,7 @@
                     </div>
                 </div>
                 <div class="row w-100">
-                    <div class="col-12 text-center">
+                    <div class="col-12 p-0 text-center">
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </div>
                 </div>
@@ -175,5 +171,4 @@
             </div>
         </div>
     </section>
-
 </main>
