@@ -1,8 +1,16 @@
 #section_home,
-#section_about,
-#section_projects,
-#section_contact {
+#section_about {
 	height: 100vh;
+	display: block;
+}
+
+#section_projects {
+	height: 100%;
+	display: block;
+}
+
+#section_contact {
+	height: 80vh;
 	display: block;
 }
 
@@ -236,14 +244,11 @@
 	display: none;
 }
 
-.icons img:hover {
-	filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg)
-		brightness(95%) contrast(80%);
-}
-
+.icons img:hover,
 .fas:hover,
 .fab:hover {
-	color: #1a9790;
+	filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg)
+		brightness(95%) contrast(80%);
 }
 
 /* Portfolio */
@@ -262,30 +267,20 @@
 	transition: 0.5s opacity;
 }
 
-input {
-	border: 0 !important;
-	border-radius: 0 !important;
-	border-bottom: 1px solid black !important;
-}
-
-.form-control:focus {
-	border-color: none;
-	box-shadow: none;
-	-webkit-box-shadow: none;
-	border-bottom: 2px solid #1a9790 !important;
-}
-
-textarea:focus {
-	border-color: none;
-	box-shadow: none;
-	-webkit-box-shadow: none;
-	border: 2px solid #1a9790 !important;
-}
-
 /* Media Queries */
 @media (min-width: 374px) and (max-width: 767px) {
 	#section_about,
-	#section_projects {
+	#section_projects,
+	#section_contact,
+	footer {
 		height: 100%;
+	}
+
+	#section_home {
+		background-attachment: scroll;
+		background-size: auto;
+		background-position: bottom;
+		background-repeat: no-repeat;
+		background-image: url("../images/banner.jpg");
 	}
 }

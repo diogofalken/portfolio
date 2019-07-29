@@ -54,3 +54,12 @@ html {
 .bg-dark {
 	background-color: #1c1f24;
 }
+
+footer {
+	height: 20vh;
+	display: blocK;
+}
+
+footer i {
+	cursor: pointer;
+}

@@ -1,7 +1,24 @@
+<footer class="bg-dark container-fluid">
+    <div class="row p-3 h-75 align-items-center justify-content-center">
+        <div class="mx-auto">
+            <i class="fab fa-github fa-3x fa-fw text-light"></i>
+            <i class="fab fa-linkedin-in fa-3x fa-fw text-light"></i>
+        </div>
+    </div>
+    <div class="bg-footer-down text-light h-25">
+        <div class="container">
+            <div class="text-center mx-auto">
+                &copy; 2019 Diogo Costa - <a href="https://opensource.org/licenses/MIT" target="_blank"
+                    rel="noopener noreferrer">MIT</a>
+            </div>
+        </div>
+    </div>
+</footer>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+</script>
 
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
 
@@ -17,12 +34,14 @@ const data = <?php echo $projetos?>;
 const projetosCategoria = {};
 
 data.forEach(da => {
-  let tools = JSON.parse(da["tools"]);
+    let tools = JSON.parse(da["tools"]);
 
-  tools.forEach(tool => {
-    projetosCategoria[tool] = projetosCategoria[tool] || [];
-    projetosCategoria[tool].push(da);
-  });
+    document.getElementById("projetos").innerHTML +=
+        `<div class="col-12 col-md-6 my-2"><div class="card shadow bg-white rounded"><img src="<?php echo base_url("assets/images/projects-thumbnails")?>/${da["imagem"]}" class="card-img-top" alt="MyCards Web"><div class="card-body"><h5 class="card-title text-center">${da["nome"]}</h5><hr><p class="card-text">${da["descricao"]}</p></div><div class="card-footer text-center"><i class="fas fa-arrow-right fa-2x text-info"></i></div></div></div>`;
+    tools.forEach(tool => {
+        projetosCategoria[tool] = projetosCategoria[tool] || [];
+        projetosCategoria[tool].push(da);
+    });
 });
 </script>
 
