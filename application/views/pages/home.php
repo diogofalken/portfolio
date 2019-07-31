@@ -122,6 +122,32 @@
         </div>
     </section>
 
+    <div class="modal fade p-0" id="modalProject" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal_project_name"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="" class="w-100" alt="MyCards Web">
+                    <p id="modal_description" class="my-2"></p>
+                    <p class="text-center pt-3 text-danger">For more info you can see the github repo and a live
+                        version.
+                    </p>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <a href="" target="_blank"><i class="fab fa-github fa-3x p-2"></i></a>
+                    <a href="" target="_blank"><i class="fas fa-globe fa-3x p-2"></i></a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
     <section class="container" id="section_contact">
         <div class="row">
             <div class="col-12" id="about_header">
@@ -164,7 +190,7 @@
                 </div>
                 <div class="row w-100">
                     <div class="col-12 p-0 text-center">
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" class="btn btn-primary p-3">Submit</button>
                     </div>
                 </div>
                 </form>

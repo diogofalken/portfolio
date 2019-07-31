@@ -98,7 +98,10 @@ const writeProject = tool => {
 				projeto["imagem"]
 			}" class="card-img-top" alt="MyCards Web"><div class="card-body"><h5 class="card-title text-center">${
 				projeto["nome"]
-			}</h5><hr><p class="card-text">${projeto["descricao"]}</p>
+			}</h5><hr><p class="card-text">${projeto["descricao"].substr(
+				0,
+				202
+			)}...</p>
 			</div><div class="card-footer text-center"><i class="fas fa-arrow-right fa-2x text-info"></i></div></div></div>`;
 		});
 	} else {
@@ -112,13 +115,37 @@ const writeProject = tool => {
 const clickCards = () => {
 	document.querySelectorAll(".card").forEach(col => {
 		col.addEventListener("click", () => {
-			console.log(col);
+			// Get the info about the clicked project
+			let projectName = col.getElementsByClassName("card-body")[0]
+				.firstElementChild.innerHTML;
+			let cur;
+			allProjects.forEach(project => {
+				if (project.nome == projectName) {
+					cur = project;
+				}
+			});
+
+			document.getElementById("modal_project_name").innerHTML = cur.nome;
+
+			document.querySelector(
+				".modal-body img"
+			).src = `assets/images/projects-thumbnails/${cur.imagem}`;
+
+			document.querySelector(".modal-body #modal_description").innerHTML =
+				cur.descricao;
+
+			document.querySelectorAll(".modal-footer a").forEach((link, index) => {
+				if (index) {
+					link.href = cur.url;
+				} else {
+					link.href = cur.github;
+				}
+			});
+			$("#modalProject").modal();
 		});
 	});
 };
-const teste1 = div => {
-	console.log(div);
-};
+
 const takeFilter = () => {
 	document.querySelectorAll(".icons").forEach(col => {
 		col.firstElementChild.style.filter = "";

@@ -267,6 +267,16 @@
 	transition: 0.5s opacity;
 }
 
+.modal-footer a {
+	color: black;
+	cursor: pointer;
+}
+
+.modal-footer a:hover {
+	filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg)
+		brightness(95%) contrast(80%);
+}
+
 /* Media Queries */
 @media (min-width: 374px) and (max-width: 767px) {
 	#section_about,

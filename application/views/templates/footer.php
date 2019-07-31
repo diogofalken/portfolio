@@ -32,14 +32,17 @@
 <script text="text/javascript" src="<?php echo base_url("assets/js/core.js"); ?>"></script>
 
 <script>
-const data = <?php echo $projetos?>;
+const allProjects = <?php echo $projetos?>;
 const projetosCategoria = {};
 
-data.forEach(da => {
+allProjects.forEach(da => {
     let tools = JSON.parse(da["tools"]);
 
     document.getElementById("projetos").innerHTML +=
-        `<div class="col-12 col-md-6 my-2"><div class="card shadow bg-white rounded"><img src="<?php echo base_url("assets/images/projects-thumbnails")?>/${da["imagem"]}" class="card-img-top" alt="MyCards Web"><div class="card-body"><h5 class="card-title text-center">${da["nome"]}</h5><hr><p class="card-text">${da["descricao"]}</p></div><div class="card-footer text-center"><i class="fas fa-arrow-right fa-2x text-info"></i></div></div></div>`;
+        `<div class="col-12 col-md-6 my-2"><div class="card shadow bg-white rounded"><img src="<?php echo base_url("assets/images/projects-thumbnails")?>/${da["imagem"]}" class="card-img-top" alt="MyCards Web"><div class="card-body"><h5 class="card-title text-center">${da["nome"]}</h5><hr><p class="card-text">${da["descricao"].substr(
+				0,
+				202
+			)}...</p></div><div class="card-footer text-center"><i class="fas fa-arrow-right fa-2x text-info"></i></div></div></div>`;
     tools.forEach(tool => {
         projetosCategoria[tool] = projetosCategoria[tool] || [];
         projetosCategoria[tool].push(da);
