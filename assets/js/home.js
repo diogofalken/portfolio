@@ -219,6 +219,7 @@ const validation = form => {
 
 document.querySelectorAll(".form-control").forEach(input => {
 	input.addEventListener("click", () => {
-		input.classList.add("input_animation");
+		input.classList.remove("shadow");
+		input.classList.add("shadow-lg");
 	});
 });

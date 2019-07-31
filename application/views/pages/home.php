@@ -156,7 +156,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-12 my-5">
+            <div class="col-12 my-2">
                 <?php echo form_open("Contact/contactMe", "class=\"form-row\" onsubmit=\"return validation(this);\""); ?>
                 <!--Grid column-->
                 <div class="col-md-12 mb-5">
@@ -184,7 +184,7 @@
                     </div>
                 </div>
                 <!--Grid column-->
-                <div class="col-md-12 mb-5">
+                <div class="col-md-12 mb-4">
                     <div class="form-row ">
                         <textarea type="text" id="message" name="message" rows="6"
                             class="form-control shadow p-3 bg-white rounded"
