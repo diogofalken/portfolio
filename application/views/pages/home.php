@@ -159,38 +159,42 @@
             <div class="col-12 my-5">
                 <?php echo form_open("Contact/contactMe", "class=\"form-row\" onsubmit=\"return validation(this);\""); ?>
                 <!--Grid column-->
-                <div class="col-md-6 mb-5">
+                <div class="col-md-12 mb-5">
                     <div class="form-row mb-0">
-                        <input type="text" id="name" name="name" class="form-control" placeholder="Name...">
+                        <input type="text" id="name" name="name" class="form-control shadow p-3 bg-white rounded"
+                            placeholder="Name...">
                         <div class="form-text"></div>
                     </div>
                 </div>
                 <!--Grid column-->
                 <!--Grid column-->
-                <div class="col-md-6 mb-5">
+                <div class="col-md-12 mb-5">
                     <div class="form-row mb-0">
-                        <input type="email" id="email" name="email" class="form-control" placeholder="Email...">
+                        <input type="email" id="email" name="email" class="form-control shadow p-3 bg-white rounded"
+                            placeholder="Email...">
                         <div class="form-text"></div>
                     </div>
                 </div>
                 <!--Grid column-->
                 <div class="col-md-12 mb-5">
                     <div class="form-row mb-0">
-                        <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject">
+                        <input type="text" id="subject" name="subject" class="form-control shadow p-3 bg-white rounded"
+                            placeholder="Subject">
                         <div class="form-text"></div>
                     </div>
                 </div>
                 <!--Grid column-->
                 <div class="col-md-12 mb-5">
-                    <div class="form-row">
-                        <textarea type="text" id="message" name="message" rows="6" class="form-control md-textarea"
+                    <div class="form-row ">
+                        <textarea type="text" id="message" name="message" rows="6"
+                            class="form-control shadow p-3 bg-white rounded"
                             placeholder="Write your message here...."></textarea>
                         <div class="form-text"></div>
                     </div>
                 </div>
                 <div class="row w-100">
                     <div class="col-12 p-0 text-center">
-                        <button type="submit" class="btn btn-primary p-3">Submit</button>
+                        <button type="submit" class="btn btn-primary p-2">Submit</button>
                     </div>
                 </div>
                 </form>

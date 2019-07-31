@@ -277,6 +277,14 @@
 		brightness(95%) contrast(80%);
 }
 
+/* Contact */
+.form-control {
+	border: 0;
+}
+.input_animation {
+	height: 50px;
+	transition: 0.25s height;
+}
 /* Media Queries */
 @media (min-width: 374px) and (max-width: 767px) {
 	#section_about,

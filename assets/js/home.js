@@ -216,3 +216,9 @@ const validation = form => {
 	}
 	return returnValue;
 };
+
+document.querySelectorAll(".form-control").forEach(input => {
+	input.addEventListener("click", () => {
+		input.classList.add("input_animation");
+	});
+});
