@@ -135,8 +135,13 @@ const clickCards = () => {
 				cur.descricao;
 
 			document.querySelectorAll(".modal-footer a").forEach((link, index) => {
+				console.log(cur.url);
 				if (index) {
-					link.href = cur.url;
+					if (!cur.url) {
+						link.href = cur.github;
+					} else {
+						link.href = cur.url;
+					}
 				} else {
 					link.href = cur.github;
 				}

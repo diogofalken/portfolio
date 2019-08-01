@@ -156,10 +156,10 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-12 my-2">
+            <div class="col-12 my-4">
                 <?php echo form_open("Contact/contactMe", "class=\"form-row\" onsubmit=\"return validation(this);\""); ?>
                 <!--Grid column-->
-                <div class="col-md-12 mb-5">
+                <div class="col-md-12 mb-4">
                     <div class="form-row mb-0">
                         <input type="text" id="name" name="name" class="form-control shadow p-3 bg-white rounded"
                             placeholder="Name...">
@@ -168,7 +168,7 @@
                 </div>
                 <!--Grid column-->
                 <!--Grid column-->
-                <div class="col-md-12 mb-5">
+                <div class="col-md-12 mb-4">
                     <div class="form-row mb-0">
                         <input type="email" id="email" name="email" class="form-control shadow p-3 bg-white rounded"
                             placeholder="Email...">
@@ -176,7 +176,7 @@
                     </div>
                 </div>
                 <!--Grid column-->
-                <div class="col-md-12 mb-5">
+                <div class="col-md-12 mb-4">
                     <div class="form-row mb-0">
                         <input type="text" id="subject" name="subject" class="form-control shadow p-3 bg-white rounded"
                             placeholder="Subject">
