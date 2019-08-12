@@ -20,7 +20,7 @@
 	background-size: auto;
 	background-position: bottom;
 	background-repeat: no-repeat;
-	background-image: url("../images/banner.jpg");
+	background-image: url('../images/banner.jpg');
 }
 
 #section_home .intro {
@@ -286,7 +286,7 @@
 	height: 50px;
 }
 /* Media Queries */
-@media (min-width: 374px) and (max-width: 767px) {
+@media (min-width: 100px) and (max-width: 767px) {
 	#section_about,
 	#section_projects,
 	#section_contact,
@@ -299,6 +299,6 @@
 		background-size: auto;
 		background-position: bottom;
 		background-repeat: no-repeat;
-		background-image: url("../images/banner.jpg");
+		background-image: url('../images/banner.jpg');
 	}
 }
