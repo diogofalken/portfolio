@@ -22,7 +22,7 @@ class Contact extends CI_Controller {
     private function sendEmail($data) {
         $email = array(
             "protocol" => "smtp",
-            "smtp_host" => "diogomarques.tk",
+            "smtp_host" => "andromeda.virtit.pt",
             "smtp_user" => "support@diogomarques.tk",
             "smtp_pass" => "-Support2019",
             "smtp_port" => 465,
