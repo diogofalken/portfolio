@@ -8,10 +8,10 @@ class Contact extends CI_Controller {
     
     public function contactMe() {
         $data = array(
-            'Name' => $this->input->post('name'),
-            'Email' => $this->input->post('email'),
-            'Subject' => $this->input->post('subject'),
-            'Message' => $this->input->post('message')
+            'Name' => $this->input->post('name', true),
+            'Email' => $this->input->post('email', true),
+            'Subject' => $this->input->post('subject', true),
+            'Message' => $this->input->post('message', true)
         );
 
         if($this->sendEmail($data)) {

@@ -1,16 +1,12 @@
-#section_home,
-#section_about {
+#section_home {
 	height: 100vh;
 	display: block;
 }
 
-#section_projects {
-	height: 100%;
-	display: block;
-}
-
+#section_about,
+#section_projects,
 #section_contact {
-	height: 80vh;
+	height: 100%;
 	display: block;
 }
 
@@ -42,7 +38,6 @@
 #scroll_down a {
 	text-decoration: none;
 	font-weight: 900;
-	text-transform: uppercase;
 	color: whitesmoke;
 	text-shadow: 4px 4px 1px #343a40;
 	position: absolute;
