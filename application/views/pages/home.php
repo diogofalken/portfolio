@@ -67,42 +67,42 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col my-auto icons" tool="HTML">
+                    <div class="col-6 col-md-2 my-auto icons" tool="HTML">
                         <i class="fab fa-html5 fa-5x fa-fw mr-2"></i>
                     </div>
-                    <div class="col my-auto icons" tool="CSS">
+                    <div class="col-6 col-md-2 my-auto icons" tool="CSS">
                         <i class="fab fa-css3-alt fa-5x fa-fw mr-2"></i>
                     </div>
-                    <div class="col my-auto icons" tool="JavaScript">
+                    <div class="col-6 col-md-2 my-auto icons" tool="JavaScript">
                         <i class="fab fa-js fa-5x fa-fw mr-2"></i>
                     </div>
-                    <div class="col my-auto icons" tool="Java">
+                    <div class="col-6 col-md-2 my-auto icons" tool="Java">
                         <i class="fab fa-java fa-5x fa-fw mr-2"></i>
                     </div>
-                    <div class="col my-auto icons" tool="RobotFramework">
+                    <div class="col-6 col-md-2 my-auto icons" tool="RobotFramework">
                         <i class="fas fa-robot fa-5x fa-fw mr-2"></i>
                     </div>
-                    <div class="col my-auto icons" tool="Android">
+                    <div class="col-6 col-md-2 my-auto icons" tool="Android">
                         <i class="fab fa-android fa-5x fa-fw mr-2"></i>
                     </div>
                 </div>
                 <div class="row my-4">
-                    <div class="col my-auto icons" tool="GitHub">
+                    <div class="col-6 col-md-2 my-auto icons" tool="GitHub">
                         <i class="fab fa-github fa-5x fa-fw"></i>
                     </div>
-                    <div class="col my-auto icons" tool="Python">
+                    <div class="col-6 col-md-2 my-auto icons" tool="Python">
                         <img src="<?php echo base_url("assets/images/icons/python.png")?>" alt="Python">
                     </div>
-                    <div class="col my-auto icons" tool="PHP">
+                    <div class="col-6 col-md-2 my-auto icons" tool="PHP">
                         <img src="<?php echo base_url("assets/images/icons/php.png")?>" alt="php"></i>
                     </div>
-                    <div class="col my-auto icons" tool="C++">
+                    <div class="col-6 col-md-2 my-auto icons" tool="C++">
                         <img src="<?php echo base_url("assets/images/icons/c++.png")?>" alt="c++">
                     </div>
-                    <div class="col my-auto icons" tool="C">
+                    <div class="col-6 col-md-2 my-auto icons" tool="C">
                         <img src="<?php echo base_url("assets/images/icons/c.png")?>" alt="c">
                     </div>
-                    <div class="col my-auto icons" tool="MySql">
+                    <div class="col-6 col-md-2 my-auto icons" tool="MySql">
                         <img src="<?php echo base_url("assets/images/icons/mysql.png")?>" alt="mysql">
                     </div>
                 </div>
