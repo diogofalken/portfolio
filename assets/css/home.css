@@ -13,11 +13,10 @@
 /* Landing Page*/
 #section_home {
 	background-attachment: fixed;
-	background-size: auto;
+	background-size: cover;
 	background-position: bottom;
 	background-repeat: no-repeat;
 	background-image: url('../images/banner.jpg');
-	width: 100%;
 }
 
 #section_home .intro {
