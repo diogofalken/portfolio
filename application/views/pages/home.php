@@ -21,7 +21,7 @@
 
         <div class="row">
             <div class="col-12 col-md-4 my-2">
-                <img src="<?php echo base_url("assets/images/avatar.jpg")?>" alt="" class="w-100 h-100" loading="lazy">
+                <img src="<?php echo base_url("assets/images/avatar.jpeg")?>" alt="" class="w-100 h-100" loading="lazy">
             </div>
             <div class="col-12 col-md-8 my-2">
                 <div id="terminal">
@@ -44,10 +44,11 @@
                             <span class="command">
                                 diogocosta$ cat README.md <br>
 
-                                I'm Diogo, I'm 19 years old and currently on my 3rd year of computer engineering at
+                                I'm Diogo, I'm 20 years old and currently on my 3rd year of computer engineering at
                                 ESTGV in Viseu.
                                 I'm passionate about learning new technologies while working constantly to improve my
                                 existing skillset.
+                                Currently I am working in a Investigation Project for IPV with a Research Initiation Scholarship.
                                 Below you'll find details about tools that I'm familiar with, and a detailed list of
                                 personal
                                 projects<span class="cursor text-success">_</span>
