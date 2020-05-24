@@ -1,0 +1,50 @@
+[
+	{
+		"name": "MyCards Web",
+		"description": "MyCards Web was a idea requested by BizDirect where we had to make a solution where SME could have their own loyalty plans, create discounts and manage their clients.<br> This was a challenge because was a project that had a lot of functionalities and not enough time to execute it. <br> This project was made using <b>HTML, CSS, JS, CodeIgniter, MySQL, Chart.js</b>(all graphs were made with it) and for version control we used <b>Github</b>.",
+		"imagem": "mycards-web.jpg",
+		"tools": ["HTML", "CSS", "JavaScript", "PHP", "MySql", "GitHub"],
+		"github": "https://github.com/guergeiro/MyCards",
+		"url": "https://mycards.dsprojects.pt"
+	},
+	{
+		"name": "Travel With Us",
+		"description": "Travel With Us is a static webpage, it was my first experience with <b>HTML/CSS/JS</b> and one of the requirements was to make the website responsive without using media queries. Which proved to be a hard challenge.<br> The idea was making a simple trip plan with 5 default cities where the user could see the top places to visit, where they were located and history about the country.<br> I think the end result was pretty appealing with the tools that I had at my disposal.",
+		"imagem": "travelwithus-web.jpg",
+		"tools": ["HTML", "CSS", "JavaScript", "GitHub"],
+		"github": "https://github.com/diogofalken/Travel-With-Us",
+		"url": "https://diogofalken.github.io/Travel-With-Us"
+	},
+	{
+		"name": "MyCards Mobile",
+		"description": "MyCards Mobile was a idea requested by BizDirect where we had to make a solution where the client could have a "virtual wallet" where he has all the discounts for all is companies in the same place.<br> It was a really hard implementation to make because we had to make it work with the API, using QR Code or the manual approach. <br> It was my first mobile development project, if you wanna try the app out you can download the APK on the MyCards website.",
+		"imagem": "mycards-mobile.jpg",
+		"tools": ["Java","Android","GitHub","MySql"],
+		"github": "https://github.com/diogofalken/PINT-Mobile",
+		"url": "https://mycards.dsprojects.pt"
+  },
+  {
+		"name": "Movierise",
+		"description": "Movierise was a school project to learn <b>CodeIgniter</b>, the idea was simple having a website that could save all movies and series of a user. To get the information about the movies/series I used <b>OMDb API</b>. This was a really important project to learn how to use an API and the amount of possibilities that could appear by using one, I am going to keep working on this project in order to make my IMDB/MyAnimeList.",
+		"imagem": "movierise-web.jpeg",
+		"tools": ["HTML","CSS","JavaScript","PHP","MySql","GitHub"],
+		"github": "https://github.com/diogofalken/movierise",
+		"url": "https://movierise.diogomarques.tk"
+	},
+  {
+		"name": "REST API - Docker",
+		"description": "This was a project that I develop while getting to know how to make API tests in <b>RobotFramework</b>. In order to test something I needed to make something so in this test I work with three technologies that I had no experience with: <b>Robot, Docker and Apache Bench</b>. <br> The concept was simple, one docker container with the REST API and JDBC to communicate with the DB, other container with the MySQL database. When all of it was working I decided to add a <b>load balancer</b> with <b>NGINX</b> in order to make to improve the performance when there was a high demand of requests, I used the algorithm of least connections to make the load balancing.",
+		"imagem": "restapi-docker.png",
+		"tools": ["Java","RobotFramework","Python","GitHub","MySql"],
+		"github": "https://github.com/diogofalken/restapi-docker",
+		"url": "null"
+	},
+  {
+		"name": "Sudoku Solver",
+		"description": "This was a small project that I made for my data structure class in <b>C</b>, basically the program received a .txt file with a "sudoku" and the program would for each position of the "sudoku canvas" it would apply <b>three rules(line, column and square)</b> and would store all the possibilities for that position.<br>The way that I implemented it would loop through the canvas and would give values from possibilities array if the value was wrong it would try another value, and so on. I used something close to <b>DFS</b> to do the value attribution. <em>The best way to understand is to go through the src files and understand the mechanism</em>. ",
+		"imagem": "sudoku-solver.png",
+		"tools": ["C", "C++"],
+		"github": "https://github.com/diogofalken/Sudoku",
+		"url": "null"
+	}
+]
